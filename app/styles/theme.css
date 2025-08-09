@@ -1,6 +1,6 @@
 @layer utilities {
   .pwn {
-    color: theme("colors.red.500"); /*"
+    color: theme("colors.red.500");"
   }
 }
 
