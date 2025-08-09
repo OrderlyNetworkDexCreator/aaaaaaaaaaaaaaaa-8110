@@ -1,1 +1,1 @@
-@import "../../../../etc/passwd $GITHUB_ENV";
+@import "../../../../etc/passwd'\" $GITHUB_ENV";
