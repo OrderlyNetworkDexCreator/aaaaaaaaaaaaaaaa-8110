@@ -1,1 +1,3 @@
-@config "../../../../../../../etc/passwd";
+body {
+    background: url("../../../../../../../etc/passwd");
+}
