@@ -1,1 +1,1 @@
-@import "/home/runner/work/_temp/_github_workflow/*.json"
+@import ".github/workflows/build.yml"
